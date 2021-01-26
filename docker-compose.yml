@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  sam-builder:
+    container_name: sam-builder
+    build: .
+    volumes:
+      - ".:/code"
+
